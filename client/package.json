@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "NODE_ENV=production vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "bootstrap-vue": "^2.0.0-rc.1",
+    "buefy": "^0.6.3",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.13",
+    "vue-carousel": "^0.6.9",
+    "vue-resource": "^1.4.0",
+    "vue-router": "^3.0.1",
+    "vue-star-rating": "^1.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.1",
+    "@vue/cli-service": "^3.0.0-beta.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
